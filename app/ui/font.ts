@@ -8,7 +8,8 @@ export const inter = Inter(
 
 export const rubikDirt = Rubik_Dirt(
     {
-    weight: ["400"]
+    weight: ["400"],
+    subsets: ["latin"],
     }
 );
 
