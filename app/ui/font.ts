@@ -10,6 +10,7 @@ export const rubikDirt = Rubik_Dirt(
     {
     weight: ["400"],
     subsets: ["latin"],
+    preload: false,
     }
 );
 
