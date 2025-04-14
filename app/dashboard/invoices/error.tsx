@@ -1,6 +1,6 @@
 "use client";
 
-import { Metal_Mania } from "next/font/google";
+// import { Metal_Mania } from "next/font/google";
 import { useEffect } from "react";
 
 export default function Error({
