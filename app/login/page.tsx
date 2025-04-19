@@ -2,6 +2,7 @@ import { Acme } from "next/font/google";
 import AcmeLogo from "../ui/acme-logo";
 import LoginForm from "../ui/login-form";
 import { Suspense } from "react";
+import { Metadata } from "next";
 
 export default function LoginPage() {
   return (
@@ -18,4 +19,8 @@ export default function LoginPage() {
       </div>
     </main>
   );
+}
+
+export const metadata: Metadata = {
+  title: "Login page"
 }

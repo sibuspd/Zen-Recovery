@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "@/app/ui/home.module.css";
 import { rubikDirt } from "./ui/fonts";
 import Image from "next/image";
+import { Metadata } from "next";
 
 export default function Page() {
   return (
@@ -50,4 +51,8 @@ export default function Page() {
       </div>
     </main>
   );
+}
+
+export const metadata: Metadata = {
+  title: "Zen Recovery Dashboard",
 }
