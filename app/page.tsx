@@ -18,11 +18,16 @@ export default function Page() {
           <p
             className={`text-xl text-gray-800 md:text-3xl md:leading-normal ${rubikDirt.className} antialiased`}
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{" "}
+            <strong>Welcome to Zen Recovery </strong> 
+            app built with{" "}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a>
-            , brought to you by Vercel.
+              Next.js
+            </a><br></br>
+            <div className="font-serif text-base ">
+            A modern dashboard that offers a clean, responsive interface designed to help users
+            track money lent and manage the generation, modification, and
+            deletion of invoices with ease.
+              </div>
           </p>
           <Link
             href="/login"
@@ -34,14 +39,14 @@ export default function Page() {
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
-            src="/hero-desktop.png"
+            src="/dashboard-logo.png"
             width={1000}
             height={760}
-            className="hidden md:block"
+            className="hidden md:block rounded-md"
             alt="Screenshots of the dashboard project showing desktop version"
           />
           <Image
-            src="/hero-mobile.png"
+            src="/mobile-logo.png"
             width={560}
             height={620}
             className="block md:hidden"
@@ -55,4 +60,4 @@ export default function Page() {
 
 export const metadata: Metadata = {
   title: "Zen Recovery Dashboard",
-}
+};

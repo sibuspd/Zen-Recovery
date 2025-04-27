@@ -83,6 +83,11 @@ export default function LoginForm() {
             </>
           )}
         </div>
+        <div className="justify-center">
+          <p className="text-md mb-1 border-y-2 shadow-sm bg-emerald-100">Please use the demo credentials below</p>
+          <h3>Username: <strong>user@nextmail.com</strong></h3>
+          <h1>Password: <strong>123456</strong></h1>
+        </div>
       </div>
     </form>
   );
